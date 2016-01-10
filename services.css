@@ -16,10 +16,6 @@ body {
   float: left;
 }
 
-#intro #brandname span {
-  color: #2CC990;
-}
-
 #intro #vendor {
   color: white;
   float: right;
@@ -31,4 +27,50 @@ body {
   background-color: white;
   padding: 200px;
   width: 100vw;
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+}
+
+.jumbotron .lead {
+  font-size: 2.5rem;
+  color: white;
+  background: #2CC990;
+  width: 400px;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+.jumbotron hr {
+  border: 1px solid #2CC990;
+  width: 300px;
+  float: left;
+}
+
+.jumbotron li {
+  list-style: none;
+  height: 30px;
+  position: relative;
+  clear: both;
+}
+
+.jumbotron button {
+  background: #2CC990;
+  width: 400px;
+  padding: 10px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+.jumbotron button:hover {
+  box-shadow: 4px 4px 2px black;
 }
